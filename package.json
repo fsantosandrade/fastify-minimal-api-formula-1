@@ -1,7 +1,7 @@
 {
-  "name": "node-blue-boilerplate",
+  "name": "api-formula-1",
   "version": "1.0.0",
-  "description": "",
+  "description": "A API Fórmula 1 é uma Minimal api funcional criada com Fastify para a listagem e filtragem de times e pilotos do esporte, com informações simples e de livre acesso.",
   "main": "index.js",
   "scripts": {
     "dist": "tsup src",
@@ -10,7 +10,7 @@
     "start:dist": "npm run dist && node dist/src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Felipe Santos",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.11.30",
